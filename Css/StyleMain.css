@@ -1,0 +1,138 @@
+
+#noticia{
+    padding: 5px;
+    position: relative;
+    left: -20px;
+    text-decoration: none;
+    color: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: gray;
+    width: 100%;
+     max-width: 700px;
+     float: right;      
+}
+
+.h5{
+     font-family: Arial, Helvetica, sans-serif;
+     color: white;
+     font-size: 20px;
+     padding-top: 5px;
+     z-index: 99;
+     position: fixed;
+     left: 75%;
+     top: 5%;
+}
+
+.h6{
+    font-family: Arial, Helvetica, sans-serif;
+     color: white;
+     font-size: 20px;
+     padding-top: 5px;
+     z-index: 99;
+     position: fixed;
+     left: 83%;
+     top: 5%;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#Sair{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    position: fixed;
+    left: 90%;
+    top: 5.75%;
+    padding: 0px;
+    background: black;
+    border: 0;
+    z-index: 99;
+    text-decoration: underline;
+}
+
+#interface{
+    width: 1000px;
+    background: white;
+    margin: -20px auto 0px auto;
+    padding: 10px;
+}
+
+#menu{
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 70px;
+   padding: 9px 0;
+   text-align: center;
+   background: black;
+   z-index: 99;
+   display: block;
+}
+
+
+ul li{
+    text-transform: uppercase;
+    list-style-type: none;
+    padding: 10px;
+    margin: 4px;
+    display: inline-block;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+    transition: background-color 1s;
+    border-radius: 4px;
+}
+
+ul li:hover{
+    background-color: gray;  
+}
+
+ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+#fotos{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid white;
+    background-color: white;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+
+#fotos:hover{
+  background-position: 0px 0px;
+  background-size: 200px 00px;
+  border: 5px solid black;
+}
+
+
+footer#rodape{
+    clear: both;
+    border-top: 1px darkgray solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    display: inline-block;
+    
+}
+
+#manu{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: gray;
+}
+
+
+
