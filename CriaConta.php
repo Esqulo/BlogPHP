@@ -1,33 +1,32 @@
 <!DOCTYPE HTML>                                                
     <html lang='pt-BR'>                                          
     <head>                                                      
-    <meta charset='UTF-8'/> 
-    <title> Site de Notcias </title>  
+        <meta charset='UTF-8'/> 
+        <title> Site de Notcias </title>  
 
-<script type='text/javascript'>
-  function isvalid(){
-    var senha_usuario = document.inclui.senha_usuario.value;
-    var consenha_usuario = document.inclui.consenha_usuario.value;
-    
-	if(senha_usuario != consenha_usuario ){
-        alert("Por favor, confirme sua senha.");
-        return false;
-        }
+        <script type='text/javascript'>
+            function isvalid(){
+                var senha_usuario = document.inclui.senha_usuario.value;
+                var consenha_usuario = document.inclui.consenha_usuario.value;
+        
+                if(senha_usuario != consenha_usuario ){
+                    alert("Por favor, confirme sua senha.");
+                    return false;
+                }
+            }
+        </script>
 
-    }
-</script>
-
-    <link rel="stylesheet" type="text/css" href= "Css/StyleLogin.css">
+        <link rel="stylesheet" type="text/css" href= "Css/StyleLogin.css">
     </head>
     <body>
     <header>
-    <div id="menu">
-        <ul>
-            <li><a href="index.php">Home</a></li>
-            <li><a href="postagem.php">Postar</a></li>
-            <li><a href="Login.php">Login</a></li>
-        </ul>
-    </div> 
+        <div id="menu">
+            <ul>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="postagem.php">Postar</a></li>
+                <li><a href="Login.php">Login</a></li>
+            </ul>
+        </div> 
     </header>
 
 <div class="login">
